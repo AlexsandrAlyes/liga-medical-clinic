@@ -1,8 +1,9 @@
-package liga.medical.medicalmonitoring.core.service;
+package liga.medical.medicalmonitoring.core.service.serviceimpl;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import liga.medical.medicalmonitoring.core.model.MessageDTO;
+import liga.medical.medicalmonitoring.core.service.RabbitSendService;
 import lombok.AllArgsConstructor;
 import org.springframework.amqp.core.AmqpTemplate;
 import org.springframework.stereotype.Service;
